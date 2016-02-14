@@ -15,7 +15,7 @@
               animation: true,
               templateUrl: 'oaks-popup.html',
               controller: 'oaksPopupCtrl',
-              size: 'md'
+              size: 'sm'
             });
     }]);
 })();
