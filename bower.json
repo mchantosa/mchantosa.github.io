@@ -1,0 +1,29 @@
+{
+  "name": "Megan Chantosa",
+  "version": "0.0.1",
+  "homepage": "http://mchantosa.github.io",
+  "authors": [
+    "Megan Chantosa <meganemmamoore@gmail.com>"
+  ],
+  "description": "Megan Chantosa Website",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "meganchantosa",
+    "site"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~1.1.2",
+    "bootstrap": "~3.3.6"
+  }
+}
