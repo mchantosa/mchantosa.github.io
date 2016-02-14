@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
     <head>
          <title>
             Megan Chantosa
         </title>    
         <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,900italic,900,700italic,700,400italic' rel='stylesheet' type='text/css'>
-        <link href='/bower_components/bootstrap/dist/css/bootstrap.min.css'>
+        <link rel="stylesheet" type="text/css" href='/bower_components/bootstrap/dist/css/bootstrap.min.css'>
         <style type="text/css">
             html {
                 font-family: Lato, san-sans-serif;
             }
+            
         </style>
         <script src="/bower_components/angular/angular.min.js"></script>
+        <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <script src="app.js"></script>
     </head>
 
-    <body>
-        Megan Chantosa website goes here...
+    <body ng-controller="mainCtrl">
+        
+        <script type="text/ng-template" id="oaks-popup.html">
+            <div class="modal-header">
+                <h3 class="modal-title">Message from Oak...</h3>
+            </div>
+            <div class="modal-body">
+                <h3 style="color: red">I love you, happy Valentine's Day!</h3>
+                <img src="http://bestanimations.com/Signs&Shapes/Hearts/heart-animation2.gif"></img>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+            </div>
+        </script>
+        
+        <div class="container" style="padding-top: 8px;">
+            {{ title }}
+        </div>
     </body>
 </html>
